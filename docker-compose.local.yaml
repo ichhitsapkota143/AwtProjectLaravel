@@ -12,7 +12,7 @@ services:
       - db
     networks:
       - example_app_network
-    volumes:
+    volumes:  #volume is used to save data into the database, so that it can be accessed next time  
       - .:/var/www/html
       - vendor_example_volume:/var/www/html/vendor
     environment:

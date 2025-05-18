@@ -13,6 +13,9 @@ class AuthController extends Controller
         return 'test login';
     }
 
+    public function logout (Request $request)
+    {
+    }
     public function register(Request $request)
     {
          $request->validate([
