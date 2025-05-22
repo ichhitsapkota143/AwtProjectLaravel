@@ -8,12 +8,12 @@ use Illuminate\Validation\ValidationException;
 
 class AuthController extends Controller
 {
-    //this is a comment to learn commit as in learning
+    //this is a comment to learn commit as in learning.
     public function login()
     {
         return 'test login';
     }
-
+//this is a comment
     public function register(Request $request)
     {
          $request->validate([
