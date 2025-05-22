@@ -8,6 +8,7 @@ use Illuminate\Validation\ValidationException;
 
 class AuthController extends Controller
 {
+    //this is a comment
     public function login()
     {
         return 'test login';
